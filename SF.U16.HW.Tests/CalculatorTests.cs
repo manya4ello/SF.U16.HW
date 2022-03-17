@@ -39,8 +39,7 @@ namespace SF.U16.HW.Tests
             Assert.That(calculator.Division(81, 9) == 9);
             Assert.Throws<DivideByZeroException>(() => calculator.Division(1, 0));
         }
-
-        
+         
 
     }
 }
